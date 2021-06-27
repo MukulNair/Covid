@@ -11,3 +11,10 @@ p {font-family:Sans-Serif; text-align:left; font-size: 20px}
 
 
 .container {background-color:grey;}
+.image1{
+    width: 60%;
+    height: 10%;
+    margin: 60px 400px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 10px greenyellow;
+}

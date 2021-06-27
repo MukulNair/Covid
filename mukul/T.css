@@ -1,4 +1,4 @@
-.img {height:100px; width:100%;}
+.img {height:10%; width:80%; margin: 30px 200px; border-radius: 35px; box-shadow: 2px 2px 5px 10px magenta;}
 a:link {text-decoration:none;}
 a {padding:25px; font-size:19px;color:rgb(168, 223, 237);}
 

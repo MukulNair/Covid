@@ -8,23 +8,11 @@
     <link rel="stylesheet" href="C.css">
 </head>
 <body style="background-color:powderblue;">
-    <div class="container-fluid">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-      
-      
-        <!-- <nav id="grey"> 
-            <center>
-                <a class="simp" href="contact.html"><b>Home</b> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="Why.html"> <b>Why We're Here</b> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="Team.html"> <b>Team</b>  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                <a href="Contact.html"> <b>Contact Us</b> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              </center>  
-      </nav> -->
 
       <header>
         <nav class="navbar" id="nav">
             <ul>
-                <img src="./Capture.PNG" class="image">
+                <img src="./Capture.PNG" class="image3">
                 <li><a href="./contact.php">Contact Us</a></li>
                 <li><a href="./team.php">About Us</a></li>
                 <li><a href="./active.php">Active Cases</a></li>
@@ -34,7 +22,8 @@
         </nav>
     </header>
 
-      <img src="contact.jpg" style="width:1500px;height:500px;">  
+
+      <img src="contact.jpg"class="img">  
         <hr class="hr">
       
       <div class="container">
@@ -63,8 +52,8 @@
                 <br><br><br><br>
       </form>
         
-        
+<!--         
           </div>
-        </div>
+        </div> -->
 </body>
 </html>

@@ -17,7 +17,7 @@
             <ul>
                 <img src="./Capture.PNG" class="image">
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="./mukul/team.php">About Us</a></li>
+                <li><a href="./team.php">About Us</a></li>
                 <li><a href="./active.php">Active Cases</a></li>
                 <li><a href="./index.php">Home</a></li>
             </ul>

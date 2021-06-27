@@ -4,7 +4,7 @@ a {padding:25px; font-size:19px;color:rgb(168, 223, 237);}
 
 .hr {color:rgb(168, 223, 237);}
 h1 {text-align:center; font-size: 30px; font-family:Serif; font-weight: strong;}
-.image {width:34%; height: 200px;location:absolute; border:solid;padding:5px;border-width:1px; border-color:grey; float:left; }
+.image {width:34%; height: 200px;position:absolute; border:solid;padding:5px;border-width:1px; border-color:grey; float:left; }
 p {font-family:Sans-Serif; text-align:center; font-size:13px}
 #copy {text-align:center;color:grey; font-size:10px}
  #grey {background-color:grey;}

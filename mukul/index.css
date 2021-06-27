@@ -1,0 +1,222 @@
+
+.navbar{
+    background-color: orange;
+    border-radius: 25px;
+    position:fixed;
+    top: 0px;
+    transition: .10s;
+    width: 98%;
+    padding: 5px;
+    display: inline-block;
+    z-index: 1;
+}
+.navbar li{
+    float:right;
+    list-style: none;
+    margin: 2px 6px;
+}
+.navbar ul{
+    overflow: auto;
+    margin: 2px 2px;
+    padding: 20px 26px
+}
+.navbar a{
+    padding: 19px 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+   
+}
+.navbar ul li:hover{
+    background:magenta;
+    font-family:  sans-serif;
+    cursor: pointer;
+    list-style-type: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+.image{
+    width: 15%;
+    
+}
+.image1{
+    width: 80%;
+    height: 400px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background-image: url('./covid.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 20px magenta;
+    animation: slider 15s infinite linear;
+    z-index: -1;
+    border-radius: 15px;
+}
+@keyframes slider{
+    0%{
+        background-image: url('https://www.fda.gov/files/covid19-1600x900.jpg');  
+    }
+    25%{
+        background-image: url('https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/1800x1200_virus_3d_render_red_03_other.jpg'); 
+    }
+    50%{
+        background-image:url('https://www.paho.org/sites/default/files/styles/flexslider_full/public/2020-03/blue-covid-banner.jpg?h=96546727&itok=xDLAoRJF.jpg') ;
+    }
+    75%{
+        background-image: url('https://images.newindianexpress.com/uploads/user/imagelibrary/2020/4/21/w900X450/Kolkata_coronavirus_PTI.jpg');
+    }
+}
+.text{
+    margin: 50% 50px;
+}
+h1{
+    text-align: center;
+    margin: 10%;
+    font-size: 65px;
+    color: aqua;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: sans-serif;
+}
+.liveupdate{
+    margin-top: 10%;
+    font-size: 30px;
+}
+.liveupdate1{
+    padding: 10px 64px;
+    color:chartreuse;
+}
+.liveupdate2{
+    padding: 10px 200px;
+    color:chartreuse;
+}
+.liveupdate3{
+    padding: 10px 50px;
+    color:chartreuse;
+}
+.liveupdate4{
+    padding: 10px 50px;
+    color:chartreuse;
+}
+.liveupdate5{
+    padding: 10px 50px;
+    color:chartreuse;
+}
+.liveupdate6{
+    padding: 10px 50px;
+    color:chartreuse;
+}
+.container{
+    background-color:rgb(188, 145, 228);
+    border-radius: 20px;
+}
+.container1{
+    width: 90%;
+    padding: 10px;
+    /* background: #ddd; */
+    margin-top: 45%;
+    margin-left: 7%;
+    /* z-index: -1; */
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background:greenyellow;
+    float: left;
+    margin: 0px 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    cursor: pointer;
+    z-index: -1;
+    /* position: absolute; */
+}
+.box:hover{
+    transform: scale(1.3);
+    box-shadow: 2px 2px 10px 5px aqua;
+    z-index: -1;
+}
+.a{
+    font-size: 45px;
+}
+#symptoms{
+    font-size: 45px;
+    outline: none;
+    margin: 90px;
+    text-decoration: none;
+    color:magenta;
+}
+.symptoms{
+    margin: 30%;
+    font-size: 45px;
+    color: blueviolet;
+    text-align:center;
+}
+h4{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    float: left;
+    margin: 1%;
+}
+.precaution{
+    margin: 30%;
+    font-size: 45px;
+    color: blueviolet;
+    text-align:center;
+}
+#precaution{
+    font-size: 40px;
+    outline: none;
+    margin: 90px;
+    text-decoration: none;
+    color:magenta;
+}
+p{
+    font-size: 40px;
+    color: black;
+}
+.pre{
+    color: black;
+    font-size: 40px;
+}
+#helpline{
+    font-size: 40px;
+    outline: none;
+    margin: 90px;
+    text-decoration: none;
+    color:magenta;
+}
+.helpline{
+    margin: 30%;
+    font-size: 45px;
+    color: blueviolet;
+    text-align:center;
+}
+h3{
+    margin: 2%;
+    
+}
+.help{
+    color: black;
+    font-size: 30px;
+}
+#imagecovaxin{
+    margin: 10% 0%;
+    width: 33%;
+    float: left;
+    
+}
+h4{
+    width: 66.67%;
+    float: right;
+    margin: 10% 0%;
+    font-size: 25px;
+}
+h5{
+    text-align: left;
+    font-size: 25px;
+    width: 66.67%;
+
+}

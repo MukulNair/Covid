@@ -12,14 +12,28 @@
         <div class="col-sm-12 col-md-12 col-lg-12">
       
       
-        <nav id="grey"> 
+        <!-- <nav id="grey"> 
             <center>
                 <a class="simp" href="contact.html"><b>Home</b> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="Why.html"> <b>Why We're Here</b> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="Team.html"> <b>Team</b>  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                 <a href="Contact.html"> <b>Contact Us</b> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </center>  
-      </nav>
+      </nav> -->
+
+      <header>
+        <nav class="navbar" id="nav">
+            <ul>
+                <img src="./Capture.PNG" class="image">
+                <li><a href="./contact.php">Contact Us</a></li>
+                <li><a href="./team.php">About Us</a></li>
+                <li><a href="./active.php">Active Cases</a></li>
+                <li><a href="./index.php">Home</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
       <img src="contact.jpg" style="width:1500px;height:500px;">  
         <hr class="hr">
       

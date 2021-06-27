@@ -7,7 +7,47 @@ h1 {text-align:center; font-size: 40px; font-family:Serif; font-weight: strong;}
 .image {width:34%; height: 200px;location:absolute; border:solid;padding:5px;border-width:1px; border-color:grey; float:left; }
 p {font-family:Sans-Serif; text-align:left; font-size: 20px}
  #grey {background-color:rgb(218,165,32);}
-nav {text-align:center}
+/* nav {text-align:center} */
 
 
 .container {background-color:rgb(218,165,32);}
+
+.navbar{
+    background-color: orange;
+    border-radius: 25px;
+    position:fixed;
+    top: 0px;
+    transition: .10s;
+    width: 98%;
+    padding: 5px;
+    display: inline-block;
+    z-index: 1;
+}
+.navbar li{
+    float:right;
+    list-style: none;
+    margin: 2px 6px;
+}
+.navbar ul{
+    overflow: auto;
+    margin: 2px 2px;
+    padding: 20px 26px
+}
+.navbar a{
+    padding: 19px 35px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+   
+}
+.navbar ul li:hover{
+    background:magenta;
+    font-family:  sans-serif;
+    cursor: pointer;
+    list-style-type: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+.image3{
+  width: 15%;
+}

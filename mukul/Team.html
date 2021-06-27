@@ -24,8 +24,8 @@
           <nav class="navbar" id="nav">
               <ul>
                   <img src="./Capture.PNG" class="image2">
-                  <li><a href="./mukul/contact.php">Contact Us</a></li>
-                  <li><a href="./mukul/team.php">About Us</a></li>
+                  <li><a href="./contact.php">Contact Us</a></li>
+                  <li><a href="./team.php">About Us</a></li>
                   <li><a href="./active.php">Active Cases</a></li>
                   <li><a href="./index.php">Home</a></li>
               </ul>
